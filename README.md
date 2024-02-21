@@ -77,9 +77,6 @@ In addition to programming tasks, you will find various resources in this reposi
 - **Reference Materials**: Links to official documentation, useful tools, and other online learning resources.
 - **Project Ideas**: Inspiration for personal or group projects that you can undertake to apply your skills.
 
-### Code of Conduct
-
-We strive to create a welcoming and supportive environment for all our members. Please take a moment to read our [Code of Conduct](CODE_OF_CONDUCT.md) to understand the expectations for participating in this community.
 
 ### Contact
 
