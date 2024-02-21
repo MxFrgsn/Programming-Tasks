@@ -119,6 +119,7 @@ int main() {
     book1.display();
     return 0;
 }
+...
 
 
 ## 5. Resolve the Segmentation Fault - Difficult
@@ -151,7 +152,7 @@ int main() {
     }
     return 0;
 }
-```
+...
 
 ## 6. Optimize the Code - Fairly Difficult
 
@@ -211,6 +212,10 @@ int main() {
     std::cout << "Main work completed" << std::endl;
     taskThread.join(); // Wait for the thread to finish
     return 0;
+}
+```
+
+This collection of tasks and solutions is designed to provide practical, hands-on experience with solving common programming challenges in C++, offering a progression from basic syntax corrections to more complex concepts like multithreading.
 }
 ```
 
