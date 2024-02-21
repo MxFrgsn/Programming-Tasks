@@ -180,6 +180,9 @@ cout << "Area of the circle: " << calculateArea(radius) << endl;
 
 This documentation is structured to help beginners understand each component of the program and identify areas that require further implementation or correction without directly solving the problem for them.
 
+## do not read past this point if you dont want to see the Solution.
+
+
 ### Issues
 - The `calculateArea` function is declared but not implemented.
 
