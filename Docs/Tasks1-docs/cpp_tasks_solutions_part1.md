@@ -113,8 +113,72 @@ int main() {
 
 ## 2. Implement the Function - Easy
 
+# Detailed C++ Program Documentation: Circle Area Calculation
+
+This document provides an in-depth explanation of a C++ program designed to calculate the area of a circle given its radius. It aims to introduce beginners to more advanced concepts such as function definition and the use of preprocessor directives, along with reinforcing the understanding of basic input/output operations in C++. The documentation also points out a common mistake related to function implementation without giving away the solution, encouraging learners to enhance their problem-solving skills.
+
+
 ### Intended Functionality
+
 Calculates the area of a circle based on user-input radius. It involves implementing a missing function `calculateArea`.
+
+
+## Preprocessor Directive: Defining Constants
+
+```cpp
+#define PI 3.14159
+```
+
+- `#define` is a preprocessor directive used to define constant values that are replaced by the compiler before the program is compiled. Here, `PI` is defined as `3.14159`, which is a constant used in calculating the area of a circle. Using `#define` for constants like this can make the code more readable and easier to maintain.
+
+
+## Function Declaration
+
+```cpp
+double calculateArea(double radius);
+```
+
+- This line declares a function named `calculateArea` that takes one argument (`radius`) of type `double` and returns a `double`. Function declarations (also known as prototypes) inform the compiler about a function's existence before its actual implementation. This particular function is intended to calculate and return the area of a circle based on the radius provided.
+
+## The main Function
+
+```cpp
+int main() {
+```
+
+- The `main` function serves as the entry point for C++ programs. Here, it's used to interact with the user, taking the radius as input and displaying the calculated area.
+
+### Variable Declaration
+
+```cpp
+double radius;
+```
+
+- A variable `radius` of type `double` is declared. `double` is used for floating-point numbers, which can represent fractions and more precise values, making it suitable for the radius of a circle.
+
+### Taking User Input
+
+```cpp
+cout << "Enter radius: ";
+cin >> radius;
+```
+
+- `cout` outputs a prompt to the console, asking the user to enter the radius of the circle. `cin` then reads the user's input from the console and stores it in the `radius` variable.
+
+### Calling the calculateArea Function and Outputting the Result
+
+```cpp
+cout << "Area of the circle: " << calculateArea(radius) << endl;
+```
+
+- This line calls the `calculateArea` function with `radius` as its argument and outputs the returned value, which represents the area of the circle. The result is printed to the console with an explanatory message.
+
+
+## Common Mistake and Correction
+
+- **Function Implementation**: The program includes a declaration for `calculateArea` but lacks its implementation. This is a common oversight that beginners might encounter. Understanding how to correctly implement and call functions in C++ is crucial for program functionality and structure.
+
+This documentation is structured to help beginners understand each component of the program and identify areas that require further implementation or correction without directly solving the problem for them.
 
 ### Issues
 - The `calculateArea` function is declared but not implemented.
