@@ -6,10 +6,12 @@ using namespace std;
 
 // Recursive function to calculate factorial
 int factorial(int n) {
-    if (n <= 1)
-        return 1;
-    else
-        return n * factorial(n - 1);
+    double sum = 1;
+    for (int i = 1; i <= n; i++)
+    {
+        sum *=i;
+    }
+    return sum;
 }
 
 int main() {

@@ -7,6 +7,11 @@ using namespace std;
 // Function to implement
 double calculateArea(double radius);
 
+double calculateArea(double radius)
+{
+    return PI * radius * radius;
+}
+
 int main() {
     double radius;
     cout << "Enter radius: ";
